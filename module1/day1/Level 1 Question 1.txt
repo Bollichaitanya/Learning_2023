@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main() {
+    int num1 = 10;
+    int num2 = 20;
+
+    int biggest = find_biggest_if_else(num1, num2);
+    printf("Using if-else: The biggest number is %d\n", biggest);
+
+    biggest = find_biggest_ternary(num1, num2);
+    printf("Using ternary operator: The biggest number is %d\n", biggest);
+
+    return 0;
+}
+
+
